@@ -1,3 +1,18 @@
+React shop-online
+
+This project was created by using React, React-Router. 
+I have used .filter method to create filter and .map method. 
+To navigate through the pages, I used React-Router.
+
+
+![london](https://github.com/KaSofi/React-shop-router-filter/assets/103929930/97f27907-7f77-4478-a3f0-4059af4757ac)
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
