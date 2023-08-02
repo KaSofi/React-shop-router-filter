@@ -38,8 +38,8 @@ nav {
   box-shadow: 1px 2px 10px 1px gray;
 }
 .CardsBlock img{
-  height: 800px;
-  max-width: 600px;
+  height: 600px;
+  max-width: 400px;
 }
 .AllCardsPosition {
   display: flex;
