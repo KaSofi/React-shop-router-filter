@@ -1,6 +1,6 @@
 React shop-online
-WebSite: https://react-shop-filter-router.netlify.app/shop
 
+WebSite: https://react-shop-filter-router.netlify.app
 
 
 This project was created by using React, React-Router. 
