@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+nav {
+  background-color: #cfd8dc;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buttonFilter {
+  display: flex;
+  justify-content: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.buttonFilter button {
+  padding: 20px;
+  margin: 20px;
+  max-width: 150px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.buttonFilter button:hover {
+  background-color: rgb(73, 73, 73);
+}
+.CardsBlock {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 1px 2px 10px 1px gray;
+}
+.CardsBlock img{
+  height: 800px;
+  max-width: 600px;
+}
+.AllCardsPosition {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  flex-wrap: wrap;
 }
