@@ -15,10 +15,10 @@ function Shop() {
         <ButtonsFilter filterItem={filterItem} setCard={setCard}/>
         <div className="AllCardsPosition">
         {card.map((el => {
-            const { id, image, price, searchTerm, name } = el;
+            const { id, image, price, searchTerm, name, title } = el;
             return(
                 <div key={id} className="CardsBlock">
-                <Link to={`/aboutProject/${el.title}`}>
+                <Link to={`/aboutProject/${ title }`}>
                     <img src={image} alt="clothes" />
                 </Link>
 
