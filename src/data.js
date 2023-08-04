@@ -5,7 +5,24 @@ export const data = [
       name: "Party dress",
       searchTerm: "dress",
       price: 300.99,
-      image: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZHJlc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+      image: 'https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_1_1_1.jpg?ts=1690970187397',
+      imageCaruselCard: [
+        { id:1,
+          imageOne: 'https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_1_1_1.jpg?ts=1690970187397',
+        },
+        {
+          imageTwo: "https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_2_1_1.jpg?ts=1690970190160",
+        },
+        {
+          imageThree: 'https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_2_2_1.jpg?ts=1690970189206',
+        },
+        {
+          imageFour: 'https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_2_3_1.jpg?ts=1690970190002',
+        },
+        {
+          imageFive: 'https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_6_1_1.jpg?ts=1690905273093',
+        }
+      ],
       description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae iure sit autem reprehenderit dignissimos nihil debitis at minus veritatis excepturi illum, laborum ut, possimus molestias maiores eveniet incidunt quod quasi.'
     },
     {
@@ -19,11 +36,20 @@ export const data = [
     },
     {
       id: 3,
-      title: "Fancy-dress",
+      title: "Fancy-pants",
       name: "Fancy pants",
       searchTerm: "pants",
       price: 199.99,
-      image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFudHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60",
+      image: "https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_1_1_1.jpg?ts=1690974865041",
+      imageCarusel: [
+        {
+          imageOne: 'https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_1_1_1.jpg?ts=1690974865041',
+          imageTwo: "https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_2_1_1.jpg?ts=1690974866082",
+          imageThree: 'https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_2_2_1.jpg?ts=1690974866080',
+          imageFour: 'https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_2_4_1.jpg?ts=1690974866198',
+          imageFive: 'https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_6_1_1.jpg?ts=1690966640180'
+        }
+      ],
       description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae iure sit autem reprehenderit dignissimos nihil debitis at minus veritatis excepturi illum, laborum ut, possimus molestias maiores eveniet incidunt quod quasi.'
     },
     {
