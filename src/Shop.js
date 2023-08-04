@@ -18,7 +18,7 @@ function Shop() {
             const { id, image, price, searchTerm, name, title } = el;
             return(
                 <div key={id} className="CardsBlock">
-                <Link to={`/aboutProject/${ title }`}>
+                <Link to={`/aboutProduct/${ title }`}>
                     <img src={image} alt="clothes" />
                 </Link>
 
