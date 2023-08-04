@@ -1,29 +1,32 @@
 nav {
   background-color: #cfd8dc;
   display: flex;
-  justify-content: center;
-  padding: 15px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 .link {
   padding: 10px 40px;
   text-decoration: none;
-  color: black;
+  color: rgb(53, 53, 54);
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 15px;
 }
 .buttonFilter {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 .buttonFilter button {
-  padding: 20px;
+  padding: 15px;
   margin: 20px;
-  max-width: 150px;
+  max-width: 100px;
   background-color: black;
   color: white;
-  font-size: 25px;
+  font-size: 15px;
   letter-spacing: 2px;
   cursor: pointer;
 }
@@ -36,10 +39,24 @@ nav {
   padding: 30px;
   margin: 30px;
   box-shadow: 1px 2px 10px 1px gray;
+  width: 300px;
 }
 .CardsBlock img{
-  height: 600px;
-  max-width: 400px;
+  height: 400px;
+  max-width: 300px;
+}
+.CardsBlock button {
+  width: 100%;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.CardsBlock button:hover {
+  background-color: rgb(84, 83, 83);
+  border: none;
 }
 .AllCardsPosition {
   display: flex;
@@ -49,7 +66,7 @@ nav {
 .AboutProductBlock {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .AboutProductPosition {
   display: flex;
@@ -58,12 +75,11 @@ nav {
   max-width: 800px;
 }
 .AboutProductPosition button {
-  padding: 20px;
-  margin: 20px;
-  max-width: 250px;
+  padding: 10px;
+  max-width: 150px;
   background-color: black;
   color: white;
-  font-size: 25px;
+  font-size: 15px;
   letter-spacing: 2px;
   cursor: pointer;
 }
@@ -71,10 +87,25 @@ nav {
   background-color: rgb(94, 94, 94);
 }
 .AboutProductPosition img {
-  height: 800px;
-  max-width: 500px;
+  height: 500px;
+  max-width: 400px;
 }
-
+.AboutProductCarusel {
+  display: flex;
+}
+.AboutProductCarusel button {
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 20px;
+  align-self: center;
+}
+.AboutProductCarusel button:hover {
+  background-color: white;
+  color: red;
+}
 @media all and (max-width: 585px) {
   .buttonFilter button {
     padding: 8px;
@@ -82,14 +113,14 @@ nav {
     max-width: 100px;
     background-color: black;
     color: white;
-    font-size: 15px;
+    font-size: 10px;
   }
   nav {
-    padding: 15px;
+    padding: 5px;
   }
   .link {
-    padding: 5px 10px;
+    padding: 5px 5px;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 12px;
   }
 }
