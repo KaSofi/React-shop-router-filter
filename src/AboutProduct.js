@@ -12,9 +12,13 @@ function AboutProduct() {
             return (
                 <div key={index} className="AboutProductBlock">
                     <div className="AboutProductPosition">
-                        <img src={elem.image} alt="clothes" />
+                        <div className="AboutProductCarusel">
+                            <button>BACK</button>
+                            <img src={elem.image} alt="clothes" />
+                            <button>NEXT</button>
+                        </div>
                         <h1>{elem.name}</h1>
-                        <h2>{elem.description}</h2>
+                        <p>{elem.description}</p>
                         <h2>$ {elem.price}</h2>
                         <button onClick={ () => navigate(-1) }>GO BACK</button>
                     </div>
