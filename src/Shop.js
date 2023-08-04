@@ -18,14 +18,14 @@ function Shop() {
             const { id, image, price, searchTerm, name, title } = el;
             return(
                 <div key={id} className="CardsBlock">
-                <Link to={`/aboutProduct/${ title }`}>
                     <img src={image} alt="clothes" />
-                </Link>
-
                     <p>{id}</p>
                     <h1>{name}</h1>
                     <h2>{searchTerm}</h2>
                     <p>$ {price}</p>
+                    <Link to={`/aboutProduct/${title}`}>
+                        <button>SHOW MORE</button>
+                    </Link>
                 </div>
             )
         }))}
