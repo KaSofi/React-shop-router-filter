@@ -46,3 +46,50 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
 }
+.AboutProductBlock {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.AboutProductPosition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+}
+.AboutProductPosition button {
+  padding: 20px;
+  margin: 20px;
+  max-width: 250px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.AboutProductPosition button:hover {
+  background-color: rgb(94, 94, 94);
+}
+.AboutProductPosition img {
+  height: 800px;
+  max-width: 500px;
+}
+
+@media all and (max-width: 585px) {
+  .buttonFilter button {
+    padding: 8px;
+    margin: 5px;
+    max-width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+  }
+  nav {
+    padding: 15px;
+  }
+  .link {
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+}
