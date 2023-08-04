@@ -7,19 +7,24 @@ export const data = [
       price: 300.99,
       image: 'https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_1_1_1.jpg?ts=1690970187397',
       imageCaruselCard: [
-        { id:1,
+        { 
+          id:1,
           imageOne: 'https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_1_1_1.jpg?ts=1690970187397',
         },
-        {
+        { 
+          id:2,
           imageTwo: "https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_2_1_1.jpg?ts=1690970190160",
         },
-        {
+        { 
+          id:3,
           imageThree: 'https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_2_2_1.jpg?ts=1690970189206',
         },
-        {
+        { 
+          id:4,
           imageFour: 'https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_2_3_1.jpg?ts=1690970190002',
         },
-        {
+        { 
+          id:5,
           imageFive: 'https://static.zara.net/photos///2023/I/0/1/p/8351/226/068/2/w/850/8351226068_6_1_1.jpg?ts=1690905273093',
         }
       ],
@@ -41,12 +46,25 @@ export const data = [
       searchTerm: "pants",
       price: 199.99,
       image: "https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_1_1_1.jpg?ts=1690974865041",
-      imageCarusel: [
-        {
+      imageCaruselCard: [
+        { 
+          id: 1,
           imageOne: 'https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_1_1_1.jpg?ts=1690974865041',
+        },
+        { 
+          id: 2,
           imageTwo: "https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_2_1_1.jpg?ts=1690974866082",
+        },
+        { 
+          id: 3,
           imageThree: 'https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_2_2_1.jpg?ts=1690974866080',
+        },
+        { 
+          id: 4, 
           imageFour: 'https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_2_4_1.jpg?ts=1690974866198',
+        },
+        { 
+          id: 5,  
           imageFive: 'https://static.zara.net/photos///2023/I/0/1/p/8277/411/756/2/w/850/8277411756_6_1_1.jpg?ts=1690966640180'
         }
       ],
